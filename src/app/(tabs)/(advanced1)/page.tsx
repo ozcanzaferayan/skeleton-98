@@ -8,7 +8,7 @@ import RoleSetting from "@/app/(tabs)/(advanced1)/role-setting";
 const Advanced1 = () => {
   return (
     <div className="flex flex-col gap-4">
-      <div className="flex flex-row gap-4">
+      <div className="flex flex-col sm:flex-row gap-4">
         <RoleSetting />
         <div className="flex flex-col">
           <Equipment />

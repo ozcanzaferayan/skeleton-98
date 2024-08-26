@@ -5,13 +5,14 @@ const Avatar = () => {
     <fieldset className="">
       <legend>Appearance</legend>
       <div className="field-row-stacked">
-        <Image
-          src="/skeleton.jpg"
-          alt="Skeleton"
-          className="object-cover object-center"
-          width={150}
-          height={200}
-        />
+        <div className="relative w-full h-36 sm:w-[150px] sm:h-[200px]">
+          <Image
+            src="/skeleton.jpg"
+            alt="Skeleton"
+            className="object-cover object-center"
+            layout="fill"
+          />
+        </div>
       </div>
     </fieldset>
   );

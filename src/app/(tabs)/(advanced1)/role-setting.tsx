@@ -1,6 +1,6 @@
 const RoleSetting = () => {
   return (
-    <fieldset className="w-36">
+    <fieldset className="sm:w-36">
       <legend>Role Setting</legend>
       <div className="field-row">
         <label className="font-bold w-16" htmlFor="name">
